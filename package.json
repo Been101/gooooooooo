@@ -1,15 +1,21 @@
 {
-  "name": "blog",
+  "name": "gooooooooo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tsc index.ts && node index.js"
+  "description": "gooooooooo",
+  "directories": {
+    "doc": "doc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build.sh"
+  },
+  "keywords": [
+    "vue",
+    "analysis"
+  ],
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.4.5"
+    "vuepress": "^1.2.0"
   }
 }
